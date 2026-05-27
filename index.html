@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>जिल्हा परिषद जळगाव - विद्यार्थी कार्ड</title>
+    <style>
+        /* Modern, Dark Gradient Background mimicking your screenshot */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #16223F 0%, #080D1A 100%);
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Container for the app */
+        .app-container {
+            width: 100%;
+            max-width: 420px;
+            padding: 20px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        /* Rainbow Border Circle for Logo/Photo */
+        .rainbow-circle {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            margin: 0 auto 30px auto;
+            background: linear-gradient(45deg, #FF3366, #FF9933, #FFFF33, #33CC66, #3399FF, #9933FF);
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(51, 153, 255, 0.3);
+        }
+
+        .inner-circle {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: #121E36;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .school-icon {
+            font-size: 65px;
+        }
+
+        /* Typography matching your exact colors */
+        .main-title {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 5px;
+            background: linear-gradient(45deg, #FF6B6B, #FFD93D, #6BCB77, #4D96FF);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .sub-title {
+            font-size: 28px;
+            font-weight: bold;
+            color: #4D96FF;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-shadow: 0 0 10px rgba(77, 150, 255, 0.4);
+        }
+
+        .tagline {
+            font-size: 16px;
+            color: #A0AEC0;
+            margin-bottom: 40px;
+        }
+
+        /* Gradient Action Button */
+        .btn-create {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, #FAD961 0%, #57CC99 100%);
+            color: #121E36;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 15px 40px;
+            border-radius: 50px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 5px 15px rgba(87, 204, 153, 0.4);
+            transition: transform 0.2s ease;
+        }
+
+        .btn-create:active {
+            transform: scale(0.98);
+        }
+
+        .btn-create span {
+            margin-right: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <div class="rainbow-circle">
+            <div class="inner-circle">
+                <span class="school-icon">🏫</span>
+            </div>
+        </div>
+
+        <div class="main-title">जिल्हा परिषद जळगाव</div>
+        <div class="sub-title">विद्यार्थी कार्ड</div>
+        <div class="tagline">तुमचे विद्यार्थी कार्ड बनवा</div>
+
+        <a href="student-card-multicolor.html" class="btn-create">
+            <span>▶</span> कार्ड तयार करा
+        </a>
+    </div>
+
+</body>
+</html>
